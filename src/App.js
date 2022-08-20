@@ -1,12 +1,16 @@
 import React from 'react';
 import InicialPage from './pages/inicialPage';
+import './styles/app.css';
 
 function App() {
   return (
     <div>
-      <header>
+      <div className="main">
         <InicialPage />
-      </header>
+      </div>
+      <div>
+        a
+      </div>
     </div>
   );
 }

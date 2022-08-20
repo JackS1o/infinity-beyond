@@ -1,0 +1,54 @@
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicialText {
+  /* font-size: 1.5em; */
+  /* font-weight: bold; */
+  color: #fff;
+  text-align: center;
+  margin-top: 7em;
+  margin-bottom: 3em;
+}
+
+.signUpDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 860px;
+  height: 160px;
+  background-color: rgba(98, 0, 234, 1);
+  border-radius: 2em;
+  color: #fff;
+}
+
+.input-and-btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.centerInput {
+  display: flex;
+  border: 0;
+  border-radius: 2em;
+  background-color: rgba(26, 26, 26, 0.3);
+  height: 40px;
+  width: 500px;
+}
+
+.centerBtn {
+  border: 0;
+  border-radius: 2em;
+  background-color: #fff;
+  color: rgba(98, 0, 234, 1);
+  font-size: large;
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+}
