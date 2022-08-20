@@ -10,6 +10,11 @@
 	box-sizing: border-box;
 }
 
+.resto h1 {
+  padding-top: 3em;
+  color: white;
+}
+
 .showCard {
   display: flex;
   justify-content: center;
@@ -23,15 +28,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 300px;
+  padding: auto;
+  width: 350px;
 }
 
 .card img {
   border: 0;
+  padding: 0 40px 40px 0;
   height: 200px;
   width: 400px;
 }
 
 .card h1, p {
+  padding: 0 20px 20px 0;
   color: white;
 }
