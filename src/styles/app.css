@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .main {
   display: block;
   background-image: url('../images/galaxy.svg');
