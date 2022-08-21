@@ -43,3 +43,69 @@
   padding: 0 20px 20px 0;
   color: white;
 }
+
+.div-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-plans {
+  display: flex;
+  border: 0;
+  border-radius: 20em;
+  background-color: rgba(26, 26, 26, 1);
+  height: 60px;
+  width: 400px;
+}
+
+.plans-btn {
+  border: 0;
+  border-radius: 20em;
+  color: white;
+  background-color: rgba(26, 26, 26, 1);
+  width: 133px;
+}
+
+.plans-btn:hover, .signUpPlanbtn:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #6200EA;
+}
+
+.div-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  gap: 2em;
+  width: 100vw;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1A1A1A;
+  border-radius: 20px;
+  border-color: 20px solid white;
+  color: white;
+  height: 400px;
+  width: 350px;
+  text-align: left;
+}
+
+.plans hr {
+  width: 80%;
+}
+
+.signUpPlanbtn {
+  background-color: rgba(89, 89, 89, 1);
+  border: 0;
+  border-radius: 5em;
+  color: white;
+  height: 40px;
+  width: 140px;
+}
